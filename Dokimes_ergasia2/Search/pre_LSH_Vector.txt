@@ -1,0 +1,2158 @@
+Query: a
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: a
+True Nearest neighbor: a
+distanceApproximate: 0
+distanceTrue: 0
+Query: aa
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: aa
+True Nearest neighbor: aa
+distanceApproximate: 0
+distanceTrue: 0
+Query: aaba
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: aaba
+True Nearest neighbor: aaba
+distanceApproximate: 0
+distanceTrue: 0
+Query: aapl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: aapl
+True Nearest neighbor: aapl
+distanceApproximate: 0
+distanceTrue: 0
+Query: abc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: abc
+True Nearest neighbor: abc
+distanceApproximate: 0
+distanceTrue: 0
+Query: abt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: abt
+True Nearest neighbor: abt
+distanceApproximate: 0
+distanceTrue: 0
+Query: abx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: abx
+True Nearest neighbor: abx
+distanceApproximate: 0
+distanceTrue: 0
+Query: adbe
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: adbe
+True Nearest neighbor: adbe
+distanceApproximate: 0
+distanceTrue: 0
+Query: adi
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: adi
+True Nearest neighbor: adi
+distanceApproximate: 0
+distanceTrue: 0
+Query: adm
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: adm
+True Nearest neighbor: adm
+distanceApproximate: 0
+distanceTrue: 0
+Query: admp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: admp
+True Nearest neighbor: admp
+distanceApproximate: 0
+distanceTrue: 0
+Query: adp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: adp
+True Nearest neighbor: adp
+distanceApproximate: 0
+distanceTrue: 0
+Query: adsk
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: adsk
+True Nearest neighbor: adsk
+distanceApproximate: 0
+distanceTrue: 0
+Query: aee
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: aee
+True Nearest neighbor: aee
+distanceApproximate: 0
+distanceTrue: 0
+Query: aem
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: aem
+True Nearest neighbor: aem
+distanceApproximate: 0
+distanceTrue: 0
+Query: aep
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: aep
+True Nearest neighbor: aep
+distanceApproximate: 0
+distanceTrue: 0
+Query: aes
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: aes
+True Nearest neighbor: aes
+distanceApproximate: 0
+distanceTrue: 0
+Query: aet
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: aet
+True Nearest neighbor: aet
+distanceApproximate: 0
+distanceTrue: 0
+Query: afl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: afl
+True Nearest neighbor: afl
+distanceApproximate: 0
+distanceTrue: 0
+Query: agn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: agn
+True Nearest neighbor: agn
+distanceApproximate: 0
+distanceTrue: 0
+Query: aig
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: aig
+True Nearest neighbor: aig
+distanceApproximate: 0
+distanceTrue: 0
+Query: aiv
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: aiv
+True Nearest neighbor: aiv
+distanceApproximate: 0
+distanceTrue: 0
+Query: all
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: all
+True Nearest neighbor: all
+distanceApproximate: 0
+distanceTrue: 0
+Query: amat
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: amat
+True Nearest neighbor: amat
+distanceApproximate: 0
+distanceTrue: 0
+Query: amd
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: amd
+True Nearest neighbor: amd
+distanceApproximate: 0
+distanceTrue: 0
+Query: amgn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: amgn
+True Nearest neighbor: amgn
+distanceApproximate: 0
+distanceTrue: 0
+Query: amzn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: amzn
+True Nearest neighbor: amzn
+distanceApproximate: 0
+distanceTrue: 0
+Query: an
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: an
+True Nearest neighbor: an
+distanceApproximate: 0
+distanceTrue: 0
+Query: antm
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: antm
+True Nearest neighbor: antm
+distanceApproximate: 0
+distanceTrue: 0
+Query: apa
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: apa
+True Nearest neighbor: apa
+distanceApproximate: 0
+distanceTrue: 0
+Query: apc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: apc
+True Nearest neighbor: apc
+distanceApproximate: 0
+distanceTrue: 0
+Query: apd
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: apd
+True Nearest neighbor: apd
+distanceApproximate: 0
+distanceTrue: 0
+Query: aphb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: aphb
+True Nearest neighbor: aphb
+distanceApproximate: 0
+distanceTrue: 0
+Query: ash
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ash
+True Nearest neighbor: ash
+distanceApproximate: 0
+distanceTrue: 0
+Query: ati
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ati
+True Nearest neighbor: ati
+distanceApproximate: 0
+distanceTrue: 0
+Query: atro
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: atro
+True Nearest neighbor: atro
+distanceApproximate: 0
+distanceTrue: 0
+Query: au
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: au
+True Nearest neighbor: au
+distanceApproximate: 0
+distanceTrue: 0
+Query: avp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: avp
+True Nearest neighbor: avp
+distanceApproximate: 0
+distanceTrue: 0
+Query: avy
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: avy
+True Nearest neighbor: avy
+distanceApproximate: 0
+distanceTrue: 0
+Query: axgn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: axgn
+True Nearest neighbor: axgn
+distanceApproximate: 0
+distanceTrue: 0
+Query: axp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: axp
+True Nearest neighbor: axp
+distanceApproximate: 0
+distanceTrue: 0
+Query: azo
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: azo
+True Nearest neighbor: azo
+distanceApproximate: 0
+distanceTrue: 0
+Query: ba
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ba
+True Nearest neighbor: ba
+distanceApproximate: 0
+distanceTrue: 0
+Query: bac
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bac
+True Nearest neighbor: bac
+distanceApproximate: 0
+distanceTrue: 0
+Query: bax
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bax
+True Nearest neighbor: bax
+distanceApproximate: 0
+distanceTrue: 0
+Query: bb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bb
+True Nearest neighbor: bb
+distanceApproximate: 0
+distanceTrue: 0
+Query: bbby
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bbby
+True Nearest neighbor: bbby
+distanceApproximate: 0
+distanceTrue: 0
+Query: bbt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bbt
+True Nearest neighbor: bbt
+distanceApproximate: 0
+distanceTrue: 0
+Query: bby
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bby
+True Nearest neighbor: bby
+distanceApproximate: 0
+distanceTrue: 0
+Query: bc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bc
+True Nearest neighbor: bc
+distanceApproximate: 0
+distanceTrue: 0
+Query: bcr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bcr
+True Nearest neighbor: bcr
+distanceApproximate: 0
+distanceTrue: 0
+Query: bdx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bdx
+True Nearest neighbor: bdx
+distanceApproximate: 0
+distanceTrue: 0
+Query: ben
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ben
+True Nearest neighbor: ben
+distanceApproximate: 0
+distanceTrue: 0
+Query: biib
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: biib
+True Nearest neighbor: biib
+distanceApproximate: 0
+distanceTrue: 0
+Query: bk
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bk
+True Nearest neighbor: bk
+distanceApproximate: 0
+distanceTrue: 0
+Query: bll
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bll
+True Nearest neighbor: bll
+distanceApproximate: 0
+distanceTrue: 0
+Query: bms
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bms
+True Nearest neighbor: bms
+distanceApproximate: 0
+distanceTrue: 0
+Query: bmy
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bmy
+True Nearest neighbor: bmy
+distanceApproximate: 0
+distanceTrue: 0
+Query: brk-a
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: brk-a
+True Nearest neighbor: brk-a
+distanceApproximate: 0
+distanceTrue: 0
+Query: brk-b
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: brk-b
+True Nearest neighbor: brk-b
+distanceApproximate: 0
+distanceTrue: 0
+Query: bsx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: bsx
+True Nearest neighbor: bsx
+distanceApproximate: 0
+distanceTrue: 0
+Query: c
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: c
+True Nearest neighbor: c
+distanceApproximate: 0
+distanceTrue: 0
+Query: ca
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ca
+True Nearest neighbor: ca
+distanceApproximate: 0
+distanceTrue: 0
+Query: cag
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cag
+True Nearest neighbor: cag
+distanceApproximate: 0
+distanceTrue: 0
+Query: cah
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cah
+True Nearest neighbor: cah
+distanceApproximate: 0
+distanceTrue: 0
+Query: cat
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cat
+True Nearest neighbor: cat
+distanceApproximate: 0
+distanceTrue: 0
+Query: cb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cb
+True Nearest neighbor: cb
+distanceApproximate: 0
+distanceTrue: 0
+Query: cce
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cce
+True Nearest neighbor: cce
+distanceApproximate: 0
+distanceTrue: 0
+Query: ccl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ccl
+True Nearest neighbor: ccl
+distanceApproximate: 0
+distanceTrue: 0
+Query: ceco
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ceco
+True Nearest neighbor: ceco
+distanceApproximate: 0
+distanceTrue: 0
+Query: chkp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: chkp
+True Nearest neighbor: chkp
+distanceApproximate: 0
+distanceTrue: 0
+Query: chrw
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: chrw
+True Nearest neighbor: chrw
+distanceApproximate: 0
+distanceTrue: 0
+Query: ci
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ci
+True Nearest neighbor: ci
+distanceApproximate: 0
+distanceTrue: 0
+Query: cien
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cien
+True Nearest neighbor: cien
+distanceApproximate: 0
+distanceTrue: 0
+Query: cinf
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cinf
+True Nearest neighbor: cinf
+distanceApproximate: 0
+distanceTrue: 0
+Query: cl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cl
+True Nearest neighbor: cl
+distanceApproximate: 0
+distanceTrue: 0
+Query: clx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: clx
+True Nearest neighbor: clx
+distanceApproximate: 0
+distanceTrue: 0
+Query: cma
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cma
+True Nearest neighbor: cma
+distanceApproximate: 0
+distanceTrue: 0
+Query: cmcsa
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cmcsa
+True Nearest neighbor: cmcsa
+distanceApproximate: 0
+distanceTrue: 0
+Query: cmi
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cmi
+True Nearest neighbor: cmi
+distanceApproximate: 0
+distanceTrue: 0
+Query: cms
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cms
+True Nearest neighbor: cms
+distanceApproximate: 0
+distanceTrue: 0
+Query: cnp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cnp
+True Nearest neighbor: cnp
+distanceApproximate: 0
+distanceTrue: 0
+Query: cof
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cof
+True Nearest neighbor: cof
+distanceApproximate: 0
+distanceTrue: 0
+Query: col
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: col
+True Nearest neighbor: col
+distanceApproximate: 0
+distanceTrue: 0
+Query: cop
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cop
+True Nearest neighbor: cop
+distanceApproximate: 0
+distanceTrue: 0
+Query: cost
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cost
+True Nearest neighbor: cost
+distanceApproximate: 0
+distanceTrue: 0
+Query: cpb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cpb
+True Nearest neighbor: cpb
+distanceApproximate: 0
+distanceTrue: 0
+Query: cr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cr
+True Nearest neighbor: cr
+distanceApproximate: 0
+distanceTrue: 0
+Query: csco
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: csco
+True Nearest neighbor: csco
+distanceApproximate: 0
+distanceTrue: 0
+Query: csx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: csx
+True Nearest neighbor: csx
+distanceApproximate: 0
+distanceTrue: 0
+Query: ctas
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ctas
+True Nearest neighbor: ctas
+distanceApproximate: 0
+distanceTrue: 0
+Query: ctb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ctb
+True Nearest neighbor: ctb
+distanceApproximate: 0
+distanceTrue: 0
+Query: ctl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ctl
+True Nearest neighbor: ctl
+distanceApproximate: 0
+distanceTrue: 0
+Query: ctxs
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ctxs
+True Nearest neighbor: ctxs
+distanceApproximate: 0
+distanceTrue: 0
+Query: cvg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cvg
+True Nearest neighbor: cvg
+distanceApproximate: 0
+distanceTrue: 0
+Query: cvs
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cvs
+True Nearest neighbor: cvs
+distanceApproximate: 0
+distanceTrue: 0
+Query: cvx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: cvx
+True Nearest neighbor: cvx
+distanceApproximate: 0
+distanceTrue: 0
+Query: d
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: d
+True Nearest neighbor: d
+distanceApproximate: 0
+distanceTrue: 0
+Query: dal
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dal
+True Nearest neighbor: dal
+distanceApproximate: 0
+distanceTrue: 0
+Query: dds
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dds
+True Nearest neighbor: dds
+distanceApproximate: 0
+distanceTrue: 0
+Query: de
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: de
+True Nearest neighbor: de
+distanceApproximate: 0
+distanceTrue: 0
+Query: dgx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dgx
+True Nearest neighbor: dgx
+distanceApproximate: 0
+distanceTrue: 0
+Query: dhr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dhr
+True Nearest neighbor: dhr
+distanceApproximate: 0
+distanceTrue: 0
+Query: dis
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dis
+True Nearest neighbor: dis
+distanceApproximate: 0
+distanceTrue: 0
+Query: dish
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dish
+True Nearest neighbor: dish
+distanceApproximate: 0
+distanceTrue: 0
+Query: dltr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dltr
+True Nearest neighbor: dltr
+distanceApproximate: 0
+distanceTrue: 0
+Query: dlx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dlx
+True Nearest neighbor: dlx
+distanceApproximate: 0
+distanceTrue: 0
+Query: dov
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dov
+True Nearest neighbor: dov
+distanceApproximate: 0
+distanceTrue: 0
+Query: dri
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dri
+True Nearest neighbor: dri
+distanceApproximate: 0
+distanceTrue: 0
+Query: dte
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dte
+True Nearest neighbor: dte
+distanceApproximate: 0
+distanceTrue: 0
+Query: duk
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: duk
+True Nearest neighbor: duk
+distanceApproximate: 0
+distanceTrue: 0
+Query: dvn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dvn
+True Nearest neighbor: dvn
+distanceApproximate: 0
+distanceTrue: 0
+Query: dwdp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dwdp
+True Nearest neighbor: dwdp
+distanceApproximate: 0
+distanceTrue: 0
+Query: dyn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: dyn
+True Nearest neighbor: dyn
+distanceApproximate: 0
+distanceTrue: 0
+Query: ebay
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ebay
+True Nearest neighbor: ebay
+distanceApproximate: 0
+distanceTrue: 0
+Query: ecl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ecl
+True Nearest neighbor: ecl
+distanceApproximate: 0
+distanceTrue: 0
+Query: ed
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ed
+True Nearest neighbor: ed
+distanceApproximate: 0
+distanceTrue: 0
+Query: efx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: efx
+True Nearest neighbor: efx
+distanceApproximate: 0
+distanceTrue: 0
+Query: eix
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: eix
+True Nearest neighbor: eix
+distanceApproximate: 0
+distanceTrue: 0
+Query: emn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: emn
+True Nearest neighbor: emn
+distanceApproximate: 0
+distanceTrue: 0
+Query: emr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: emr
+True Nearest neighbor: emr
+distanceApproximate: 0
+distanceTrue: 0
+Query: ensv
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ensv
+True Nearest neighbor: ensv
+distanceApproximate: 0
+distanceTrue: 0
+Query: eog
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: eog
+True Nearest neighbor: eog
+distanceApproximate: 0
+distanceTrue: 0
+Query: epc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: epc
+True Nearest neighbor: epc
+distanceApproximate: 0
+distanceTrue: 0
+Query: eqr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: eqr
+True Nearest neighbor: eqr
+distanceApproximate: 0
+distanceTrue: 0
+Query: esrx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: esrx
+True Nearest neighbor: esrx
+distanceApproximate: 0
+distanceTrue: 0
+Query: etfc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: etfc
+True Nearest neighbor: etfc
+distanceApproximate: 0
+distanceTrue: 0
+Query: etn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: etn
+True Nearest neighbor: etn
+distanceApproximate: 0
+distanceTrue: 0
+Query: etr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: etr
+True Nearest neighbor: etr
+distanceApproximate: 0
+distanceTrue: 0
+Query: exc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: exc
+True Nearest neighbor: exc
+distanceApproximate: 0
+distanceTrue: 0
+Query: expd
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: expd
+True Nearest neighbor: expd
+distanceApproximate: 0
+distanceTrue: 0
+Query: f
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: f
+True Nearest neighbor: f
+distanceApproximate: 0
+distanceTrue: 0
+Query: fast
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: fast
+True Nearest neighbor: fast
+distanceApproximate: 0
+distanceTrue: 0
+Query: fcx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: fcx
+True Nearest neighbor: fcx
+distanceApproximate: 0
+distanceTrue: 0
+Query: fdx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: fdx
+True Nearest neighbor: fdx
+distanceApproximate: 0
+distanceTrue: 0
+Query: fe
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: fe
+True Nearest neighbor: fe
+distanceApproximate: 0
+distanceTrue: 0
+Query: fhn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: fhn
+True Nearest neighbor: fhn
+distanceApproximate: 0
+distanceTrue: 0
+Query: fii
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: fii
+True Nearest neighbor: fii
+distanceApproximate: 0
+distanceTrue: 0
+Query: fisv
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: fisv
+True Nearest neighbor: fisv
+distanceApproximate: 0
+distanceTrue: 0
+Query: fitb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: fitb
+True Nearest neighbor: fitb
+distanceApproximate: 0
+distanceTrue: 0
+Query: flex
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: flex
+True Nearest neighbor: flex
+distanceApproximate: 0
+distanceTrue: 0
+Query: flr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: flr
+True Nearest neighbor: flr
+distanceApproximate: 0
+distanceTrue: 0
+Query: gd
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: gd
+True Nearest neighbor: gd
+distanceApproximate: 0
+distanceTrue: 0
+Query: ge
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ge
+True Nearest neighbor: ge
+distanceApproximate: 0
+distanceTrue: 0
+Query: gfi
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: gfi
+True Nearest neighbor: gfi
+distanceApproximate: 0
+distanceTrue: 0
+Query: gg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: gg
+True Nearest neighbor: gg
+distanceApproximate: 0
+distanceTrue: 0
+Query: gild
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: gild
+True Nearest neighbor: gild
+distanceApproximate: 0
+distanceTrue: 0
+Query: gis
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: gis
+True Nearest neighbor: gis
+distanceApproximate: 0
+distanceTrue: 0
+Query: glw
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: glw
+True Nearest neighbor: glw
+distanceApproximate: 0
+distanceTrue: 0
+Query: gntx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: gntx
+True Nearest neighbor: gntx
+distanceApproximate: 0
+distanceTrue: 0
+Query: gpc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: gpc
+True Nearest neighbor: gpc
+distanceApproximate: 0
+distanceTrue: 0
+Query: gps
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: gps
+True Nearest neighbor: gps
+distanceApproximate: 0
+distanceTrue: 0
+Query: grmn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: grmn
+True Nearest neighbor: grmn
+distanceApproximate: 0
+distanceTrue: 0
+Query: gs
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: gs
+True Nearest neighbor: gs
+distanceApproximate: 0
+distanceTrue: 0
+Query: gt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: gt
+True Nearest neighbor: gt
+distanceApproximate: 0
+distanceTrue: 0
+Query: gww
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: gww
+True Nearest neighbor: gww
+distanceApproximate: 0
+distanceTrue: 0
+Query: hal
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: hal
+True Nearest neighbor: hal
+distanceApproximate: 0
+distanceTrue: 0
+Query: has
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: has
+True Nearest neighbor: has
+distanceApproximate: 0
+distanceTrue: 0
+Query: hban
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: hban
+True Nearest neighbor: hban
+distanceApproximate: 0
+distanceTrue: 0
+Query: hd
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: hd
+True Nearest neighbor: hd
+distanceApproximate: 0
+distanceTrue: 0
+Query: hig
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: hig
+True Nearest neighbor: hig
+distanceApproximate: 0
+distanceTrue: 0
+Query: hmy
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: hmy
+True Nearest neighbor: hmy
+distanceApproximate: 0
+distanceTrue: 0
+Query: hon
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: hon
+True Nearest neighbor: hon
+distanceApproximate: 0
+distanceTrue: 0
+Query: hpq
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: hpq
+True Nearest neighbor: hpq
+distanceApproximate: 0
+distanceTrue: 0
+Query: hrb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: hrb
+True Nearest neighbor: hrb
+distanceApproximate: 0
+distanceTrue: 0
+Query: hsic
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: hsic
+True Nearest neighbor: hsic
+distanceApproximate: 0
+distanceTrue: 0
+Query: hsy
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: hsy
+True Nearest neighbor: hsy
+distanceApproximate: 0
+distanceTrue: 0
+Query: hum
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: hum
+True Nearest neighbor: hum
+distanceApproximate: 0
+distanceTrue: 0
+Query: iac
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: iac
+True Nearest neighbor: iac
+distanceApproximate: 0
+distanceTrue: 0
+Query: ibm
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ibm
+True Nearest neighbor: ibm
+distanceApproximate: 0
+distanceTrue: 0
+Query: iff
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: iff
+True Nearest neighbor: iff
+distanceApproximate: 0
+distanceTrue: 0
+Query: intc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: intc
+True Nearest neighbor: intc
+distanceApproximate: 0
+distanceTrue: 0
+Query: intu
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: intu
+True Nearest neighbor: intu
+distanceApproximate: 0
+distanceTrue: 0
+Query: ip
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ip
+True Nearest neighbor: ip
+distanceApproximate: 0
+distanceTrue: 0
+Query: ipg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ipg
+True Nearest neighbor: ipg
+distanceApproximate: 0
+distanceTrue: 0
+Query: ir
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ir
+True Nearest neighbor: ir
+distanceApproximate: 0
+distanceTrue: 0
+Query: itt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: itt
+True Nearest neighbor: itt
+distanceApproximate: 0
+distanceTrue: 0
+Query: itus
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: itus
+True Nearest neighbor: itus
+distanceApproximate: 0
+distanceTrue: 0
+Query: itw
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: itw
+True Nearest neighbor: itw
+distanceApproximate: 0
+distanceTrue: 0
+Query: jbl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: jbl
+True Nearest neighbor: jbl
+distanceApproximate: 0
+distanceTrue: 0
+Query: jci
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: jci
+True Nearest neighbor: jci
+distanceApproximate: 0
+distanceTrue: 0
+Query: jcp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: jcp
+True Nearest neighbor: jcp
+distanceApproximate: 0
+distanceTrue: 0
+Query: jhg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: jhg
+True Nearest neighbor: jhg
+distanceApproximate: 0
+distanceTrue: 0
+Query: jnj
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: jnj
+True Nearest neighbor: jnj
+distanceApproximate: 0
+distanceTrue: 0
+Query: jnpr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: jnpr
+True Nearest neighbor: jnpr
+distanceApproximate: 0
+distanceTrue: 0
+Query: jpm
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: jpm
+True Nearest neighbor: jpm
+distanceApproximate: 0
+distanceTrue: 0
+Query: jwn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: jwn
+True Nearest neighbor: jwn
+distanceApproximate: 0
+distanceTrue: 0
+Query: k
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: k
+True Nearest neighbor: k
+distanceApproximate: 0
+distanceTrue: 0
+Query: kbal
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: kbal
+True Nearest neighbor: kbal
+distanceApproximate: 0
+distanceTrue: 0
+Query: kbh
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: kbh
+True Nearest neighbor: kbh
+distanceApproximate: 0
+distanceTrue: 0
+Query: key
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: key
+True Nearest neighbor: key
+distanceApproximate: 0
+distanceTrue: 0
+Query: kgc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: kgc
+True Nearest neighbor: kgc
+distanceApproximate: 0
+distanceTrue: 0
+Query: klac
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: klac
+True Nearest neighbor: klac
+distanceApproximate: 0
+distanceTrue: 0
+Query: kmb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: kmb
+True Nearest neighbor: kmb
+distanceApproximate: 0
+distanceTrue: 0
+Query: ko
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ko
+True Nearest neighbor: ko
+distanceApproximate: 0
+distanceTrue: 0
+Query: kr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: kr
+True Nearest neighbor: kr
+distanceApproximate: 0
+distanceTrue: 0
+Query: kss
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: kss
+True Nearest neighbor: kss
+distanceApproximate: 0
+distanceTrue: 0
+Query: lamr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: lamr
+True Nearest neighbor: lamr
+distanceApproximate: 0
+distanceTrue: 0
+Query: lb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: lb
+True Nearest neighbor: lb
+distanceApproximate: 0
+distanceTrue: 0
+Query: leg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: leg
+True Nearest neighbor: leg
+distanceApproximate: 0
+distanceTrue: 0
+Query: leu
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: leu
+True Nearest neighbor: leu
+distanceApproximate: 0
+distanceTrue: 0
+Query: lly
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: lly
+True Nearest neighbor: lly
+distanceApproximate: 0
+distanceTrue: 0
+Query: lmt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: lmt
+True Nearest neighbor: lmt
+distanceApproximate: 0
+distanceTrue: 0
+Query: lnc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: lnc
+True Nearest neighbor: lnc
+distanceApproximate: 0
+distanceTrue: 0
+Query: low
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: low
+True Nearest neighbor: low
+distanceApproximate: 0
+distanceTrue: 0
+Query: lpx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: lpx
+True Nearest neighbor: lpx
+distanceApproximate: 0
+distanceTrue: 0
+Query: lrcx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: lrcx
+True Nearest neighbor: lrcx
+distanceApproximate: 0
+distanceTrue: 0
+Query: luv
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: luv
+True Nearest neighbor: luv
+distanceApproximate: 0
+distanceTrue: 0
+Query: lvlt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: lvlt
+True Nearest neighbor: lvlt
+distanceApproximate: 0
+distanceTrue: 0
+Query: mar
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mar
+True Nearest neighbor: mar
+distanceApproximate: 0
+distanceTrue: 0
+Query: mas
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mas
+True Nearest neighbor: mas
+distanceApproximate: 0
+distanceTrue: 0
+Query: mat
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mat
+True Nearest neighbor: mat
+distanceApproximate: 0
+distanceTrue: 0
+Query: mbi
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mbi
+True Nearest neighbor: mbi
+distanceApproximate: 0
+distanceTrue: 0
+Query: mcd
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mcd
+True Nearest neighbor: mcd
+distanceApproximate: 0
+distanceTrue: 0
+Query: mchp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mchp
+True Nearest neighbor: mchp
+distanceApproximate: 0
+distanceTrue: 0
+Query: mck
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mck
+True Nearest neighbor: mck
+distanceApproximate: 0
+distanceTrue: 0
+Query: mco
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mco
+True Nearest neighbor: mco
+distanceApproximate: 0
+distanceTrue: 0
+Query: mdp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mdp
+True Nearest neighbor: mdp
+distanceApproximate: 0
+distanceTrue: 0
+Query: mdt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mdt
+True Nearest neighbor: mdt
+distanceApproximate: 0
+distanceTrue: 0
+Query: met
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: met
+True Nearest neighbor: met
+distanceApproximate: 0
+distanceTrue: 0
+Query: mitk
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mitk
+True Nearest neighbor: mitk
+distanceApproximate: 0
+distanceTrue: 0
+Query: mkc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mkc
+True Nearest neighbor: mkc
+distanceApproximate: 0
+distanceTrue: 0
+Query: mmc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mmc
+True Nearest neighbor: mmc
+distanceApproximate: 0
+distanceTrue: 0
+Query: mmm
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mmm
+True Nearest neighbor: mmm
+distanceApproximate: 0
+distanceTrue: 0
+Query: mo
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mo
+True Nearest neighbor: mo
+distanceApproximate: 0
+distanceTrue: 0
+Query: mon
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mon
+True Nearest neighbor: mon
+distanceApproximate: 0
+distanceTrue: 0
+Query: mrk
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mrk
+True Nearest neighbor: mrk
+distanceApproximate: 0
+distanceTrue: 0
+Query: mro
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mro
+True Nearest neighbor: mro
+distanceApproximate: 0
+distanceTrue: 0
+Query: mrvl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mrvl
+True Nearest neighbor: mrvl
+distanceApproximate: 0
+distanceTrue: 0
+Query: msa
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: msa
+True Nearest neighbor: msa
+distanceApproximate: 0
+distanceTrue: 0
+Query: msft
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: msft
+True Nearest neighbor: msft
+distanceApproximate: 0
+distanceTrue: 0
+Query: mtb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mtb
+True Nearest neighbor: mtb
+distanceApproximate: 0
+distanceTrue: 0
+Query: mtg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mtg
+True Nearest neighbor: mtg
+distanceApproximate: 0
+distanceTrue: 0
+Query: mu
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mu
+True Nearest neighbor: mu
+distanceApproximate: 0
+distanceTrue: 0
+Query: mxim
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: mxim
+True Nearest neighbor: mxim
+distanceApproximate: 0
+distanceTrue: 0
+Query: nav
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: nav
+True Nearest neighbor: nav
+distanceApproximate: 0
+distanceTrue: 0
+Query: nbr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: nbr
+True Nearest neighbor: nbr
+distanceApproximate: 0
+distanceTrue: 0
+Query: ncr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ncr
+True Nearest neighbor: ncr
+distanceApproximate: 0
+distanceTrue: 0
+Query: ne
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ne
+True Nearest neighbor: ne
+distanceApproximate: 0
+distanceTrue: 0
+Query: nem
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: nem
+True Nearest neighbor: nem
+distanceApproximate: 0
+distanceTrue: 0
+Query: ni
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ni
+True Nearest neighbor: ni
+distanceApproximate: 0
+distanceTrue: 0
+Query: nke
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: nke
+True Nearest neighbor: nke
+distanceApproximate: 0
+distanceTrue: 0
+Query: noc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: noc
+True Nearest neighbor: noc
+distanceApproximate: 0
+distanceTrue: 0
+Query: nsc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: nsc
+True Nearest neighbor: nsc
+distanceApproximate: 0
+distanceTrue: 0
+Query: ntap
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ntap
+True Nearest neighbor: ntap
+distanceApproximate: 0
+distanceTrue: 0
+Query: ntrs
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ntrs
+True Nearest neighbor: ntrs
+distanceApproximate: 0
+distanceTrue: 0
+Query: nue
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: nue
+True Nearest neighbor: nue
+distanceApproximate: 0
+distanceTrue: 0
+Query: nvda
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: nvda
+True Nearest neighbor: nvda
+distanceApproximate: 0
+distanceTrue: 0
+Query: nwl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: nwl
+True Nearest neighbor: nwl
+distanceApproximate: 0
+distanceTrue: 0
+Query: nyt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: nyt
+True Nearest neighbor: nyt
+distanceApproximate: 0
+distanceTrue: 0
+Query: odp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: odp
+True Nearest neighbor: odp
+distanceApproximate: 0
+distanceTrue: 0
+Query: omc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: omc
+True Nearest neighbor: omc
+distanceApproximate: 0
+distanceTrue: 0
+Query: orcl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: orcl
+True Nearest neighbor: orcl
+distanceApproximate: 0
+distanceTrue: 0
+Query: oxy
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: oxy
+True Nearest neighbor: oxy
+distanceApproximate: 0
+distanceTrue: 0
+Query: payx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: payx
+True Nearest neighbor: payx
+distanceApproximate: 0
+distanceTrue: 0
+Query: pbi
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pbi
+True Nearest neighbor: pbi
+distanceApproximate: 0
+distanceTrue: 0
+Query: pcar
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pcar
+True Nearest neighbor: pcar
+distanceApproximate: 0
+distanceTrue: 0
+Query: pcg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pcg
+True Nearest neighbor: pcg
+distanceApproximate: 0
+distanceTrue: 0
+Query: pdco
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pdco
+True Nearest neighbor: pdco
+distanceApproximate: 0
+distanceTrue: 0
+Query: peg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: peg
+True Nearest neighbor: peg
+distanceApproximate: 0
+distanceTrue: 0
+Query: pep
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pep
+True Nearest neighbor: pep
+distanceApproximate: 0
+distanceTrue: 0
+Query: pfe
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pfe
+True Nearest neighbor: pfe
+distanceApproximate: 0
+distanceTrue: 0
+Query: pfg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pfg
+True Nearest neighbor: pfg
+distanceApproximate: 0
+distanceTrue: 0
+Query: pg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pg
+True Nearest neighbor: pg
+distanceApproximate: 0
+distanceTrue: 0
+Query: pgr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pgr
+True Nearest neighbor: pgr
+distanceApproximate: 0
+distanceTrue: 0
+Query: ph
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ph
+True Nearest neighbor: ph
+distanceApproximate: 0
+distanceTrue: 0
+Query: phm
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: phm
+True Nearest neighbor: phm
+distanceApproximate: 0
+distanceTrue: 0
+Query: pki
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pki
+True Nearest neighbor: pki
+distanceApproximate: 0
+distanceTrue: 0
+Query: pld
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pld
+True Nearest neighbor: pld
+distanceApproximate: 0
+distanceTrue: 0
+Query: pnc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pnc
+True Nearest neighbor: pnc
+distanceApproximate: 0
+distanceTrue: 0
+Query: pnw
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pnw
+True Nearest neighbor: pnw
+distanceApproximate: 0
+distanceTrue: 0
+Query: ppg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ppg
+True Nearest neighbor: ppg
+distanceApproximate: 0
+distanceTrue: 0
+Query: ppl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ppl
+True Nearest neighbor: ppl
+distanceApproximate: 0
+distanceTrue: 0
+Query: pru
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pru
+True Nearest neighbor: pru
+distanceApproximate: 0
+distanceTrue: 0
+Query: pten
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: pten
+True Nearest neighbor: pten
+distanceApproximate: 0
+distanceTrue: 0
+Query: px
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: px
+True Nearest neighbor: px
+distanceApproximate: 0
+distanceTrue: 0
+Query: qcom
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: qcom
+True Nearest neighbor: qcom
+distanceApproximate: 0
+distanceTrue: 0
+Query: r
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: r
+True Nearest neighbor: r
+distanceApproximate: 0
+distanceTrue: 0
+Query: rave
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: rave
+True Nearest neighbor: rave
+distanceApproximate: 0
+distanceTrue: 0
+Query: rdc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: rdc
+True Nearest neighbor: rdc
+distanceApproximate: 0
+distanceTrue: 0
+Query: rf
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: rf
+True Nearest neighbor: rf
+distanceApproximate: 0
+distanceTrue: 0
+Query: rhi
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: rhi
+True Nearest neighbor: rhi
+distanceApproximate: 0
+distanceTrue: 0
+Query: rig
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: rig
+True Nearest neighbor: rig
+distanceApproximate: 0
+distanceTrue: 0
+Query: rok
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: rok
+True Nearest neighbor: rok
+distanceApproximate: 0
+distanceTrue: 0
+Query: rost
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: rost
+True Nearest neighbor: rost
+distanceApproximate: 0
+distanceTrue: 0
+Query: rrd
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: rrd
+True Nearest neighbor: rrd
+distanceApproximate: 0
+distanceTrue: 0
+Query: rtn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: rtn
+True Nearest neighbor: rtn
+distanceApproximate: 0
+distanceTrue: 0
+Query: ryaay
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ryaay
+True Nearest neighbor: ryaay
+distanceApproximate: 0
+distanceTrue: 0
+Query: sanm
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: sanm
+True Nearest neighbor: sanm
+distanceApproximate: 0
+distanceTrue: 0
+Query: sbux
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: sbux
+True Nearest neighbor: sbux
+distanceApproximate: 0
+distanceTrue: 0
+Query: schw
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: schw
+True Nearest neighbor: schw
+distanceApproximate: 0
+distanceTrue: 0
+Query: seb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: seb
+True Nearest neighbor: seb
+distanceApproximate: 0
+distanceTrue: 0
+Query: see
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: see
+True Nearest neighbor: see
+distanceApproximate: 0
+distanceTrue: 0
+Query: shw
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: shw
+True Nearest neighbor: shw
+distanceApproximate: 0
+distanceTrue: 0
+Query: slb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: slb
+True Nearest neighbor: slb
+distanceApproximate: 0
+distanceTrue: 0
+Query: slm
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: slm
+True Nearest neighbor: slm
+distanceApproximate: 0
+distanceTrue: 0
+Query: sna
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: sna
+True Nearest neighbor: sna
+distanceApproximate: 0
+distanceTrue: 0
+Query: snps
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: snps
+True Nearest neighbor: snps
+distanceApproximate: 0
+distanceTrue: 0
+Query: snv
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: snv
+True Nearest neighbor: snv
+distanceApproximate: 0
+distanceTrue: 0
+Query: so
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: so
+True Nearest neighbor: so
+distanceApproximate: 0
+distanceTrue: 0
+Query: spg
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: spg
+True Nearest neighbor: spg
+distanceApproximate: 0
+distanceTrue: 0
+Query: spgi
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: spgi
+True Nearest neighbor: spgi
+distanceApproximate: 0
+distanceTrue: 0
+Query: sre
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: sre
+True Nearest neighbor: sre
+distanceApproximate: 0
+distanceTrue: 0
+Query: sti
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: sti
+True Nearest neighbor: sti
+distanceApproximate: 0
+distanceTrue: 0
+Query: stt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: stt
+True Nearest neighbor: stt
+distanceApproximate: 0
+distanceTrue: 0
+Query: svu
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: svu
+True Nearest neighbor: svu
+distanceApproximate: 0
+distanceTrue: 0
+Query: swk
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: swk
+True Nearest neighbor: swk
+distanceApproximate: 0
+distanceTrue: 0
+Query: syk
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: syk
+True Nearest neighbor: syk
+distanceApproximate: 0
+distanceTrue: 0
+Query: symc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: symc
+True Nearest neighbor: symc
+distanceApproximate: 0
+distanceTrue: 0
+Query: syy
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: syy
+True Nearest neighbor: syy
+distanceApproximate: 0
+distanceTrue: 0
+Query: t
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: t
+True Nearest neighbor: t
+distanceApproximate: 0
+distanceTrue: 0
+Query: ter
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ter
+True Nearest neighbor: ter
+distanceApproximate: 0
+distanceTrue: 0
+Query: teva
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: teva
+True Nearest neighbor: teva
+distanceApproximate: 0
+distanceTrue: 0
+Query: tgna
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: tgna
+True Nearest neighbor: tgna
+distanceApproximate: 0
+distanceTrue: 0
+Query: tgt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: tgt
+True Nearest neighbor: tgt
+distanceApproximate: 0
+distanceTrue: 0
+Query: thc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: thc
+True Nearest neighbor: thc
+distanceApproximate: 0
+distanceTrue: 0
+Query: tif
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: tif
+True Nearest neighbor: tif
+distanceApproximate: 0
+distanceTrue: 0
+Query: tjx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: tjx
+True Nearest neighbor: tjx
+distanceApproximate: 0
+distanceTrue: 0
+Query: tkf
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: tkf
+True Nearest neighbor: tkf
+distanceApproximate: 0
+distanceTrue: 0
+Query: tmk
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: tmk
+True Nearest neighbor: tmk
+distanceApproximate: 0
+distanceTrue: 0
+Query: tmo
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: tmo
+True Nearest neighbor: tmo
+distanceApproximate: 0
+distanceTrue: 0
+Query: trow
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: trow
+True Nearest neighbor: trow
+distanceApproximate: 0
+distanceTrue: 0
+Query: trxc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: trxc
+True Nearest neighbor: trxc
+distanceApproximate: 0
+distanceTrue: 0
+Query: ttnp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ttnp
+True Nearest neighbor: ttnp
+distanceApproximate: 0
+distanceTrue: 0
+Query: twx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: twx
+True Nearest neighbor: twx
+distanceApproximate: 0
+distanceTrue: 0
+Query: txn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: txn
+True Nearest neighbor: txn
+distanceApproximate: 0
+distanceTrue: 0
+Query: txt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: txt
+True Nearest neighbor: txt
+distanceApproximate: 0
+distanceTrue: 0
+Query: uis
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: uis
+True Nearest neighbor: uis
+distanceApproximate: 0
+distanceTrue: 0
+Query: unh
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: unh
+True Nearest neighbor: unh
+distanceApproximate: 0
+distanceTrue: 0
+Query: unm
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: unm
+True Nearest neighbor: unm
+distanceApproximate: 0
+distanceTrue: 0
+Query: unp
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: unp
+True Nearest neighbor: unp
+distanceApproximate: 0
+distanceTrue: 0
+Query: ups
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: ups
+True Nearest neighbor: ups
+distanceApproximate: 0
+distanceTrue: 0
+Query: usb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: usb
+True Nearest neighbor: usb
+distanceApproximate: 0
+distanceTrue: 0
+Query: utx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: utx
+True Nearest neighbor: utx
+distanceApproximate: 0
+distanceTrue: 0
+Query: vfc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: vfc
+True Nearest neighbor: vfc
+distanceApproximate: 0
+distanceTrue: 0
+Query: viav
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: viav
+True Nearest neighbor: viav
+distanceApproximate: 0
+distanceTrue: 0
+Query: vmc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: vmc
+True Nearest neighbor: vmc
+distanceApproximate: 0
+distanceTrue: 0
+Query: vrsn
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: vrsn
+True Nearest neighbor: vrsn
+distanceApproximate: 0
+distanceTrue: 0
+Query: vz
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: vz
+True Nearest neighbor: vz
+distanceApproximate: 0
+distanceTrue: 0
+Query: wat
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: wat
+True Nearest neighbor: wat
+distanceApproximate: 0
+distanceTrue: 0
+Query: wba
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: wba
+True Nearest neighbor: wba
+distanceApproximate: 0
+distanceTrue: 0
+Query: wec
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: wec
+True Nearest neighbor: wec
+distanceApproximate: 0
+distanceTrue: 0
+Query: wen
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: wen
+True Nearest neighbor: wen
+distanceApproximate: 0
+distanceTrue: 0
+Query: wfc
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: wfc
+True Nearest neighbor: wfc
+distanceApproximate: 0
+distanceTrue: 0
+Query: whr
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: whr
+True Nearest neighbor: whr
+distanceApproximate: 0
+distanceTrue: 0
+Query: wmb
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: wmb
+True Nearest neighbor: wmb
+distanceApproximate: 0
+distanceTrue: 0
+Query: wmt
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: wmt
+True Nearest neighbor: wmt
+distanceApproximate: 0
+distanceTrue: 0
+Query: wor
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: wor
+True Nearest neighbor: wor
+distanceApproximate: 0
+distanceTrue: 0
+Query: wy
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: wy
+True Nearest neighbor: wy
+distanceApproximate: 0
+distanceTrue: 0
+Query: x
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: x
+True Nearest neighbor: x
+distanceApproximate: 0
+distanceTrue: 0
+Query: xel
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: xel
+True Nearest neighbor: xel
+distanceApproximate: 0
+distanceTrue: 0
+Query: xl
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: xl
+True Nearest neighbor: xl
+distanceApproximate: 0
+distanceTrue: 0
+Query: xlnx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: xlnx
+True Nearest neighbor: xlnx
+distanceApproximate: 0
+distanceTrue: 0
+Query: xom
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: xom
+True Nearest neighbor: xom
+distanceApproximate: 0
+distanceTrue: 0
+Query: xray
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: xray
+True Nearest neighbor: xray
+distanceApproximate: 0
+distanceTrue: 0
+Query: xrx
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: xrx
+True Nearest neighbor: xrx
+distanceApproximate: 0
+distanceTrue: 0
+Query: yum
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: yum
+True Nearest neighbor: yum
+distanceApproximate: 0
+distanceTrue: 0
+Query: zbh
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: zbh
+True Nearest neighbor: zbh
+distanceApproximate: 0
+distanceTrue: 0
+Query: zion
+Algorithm: LSH_Vector
+Approximate Nearest neighbor: zion
+True Nearest neighbor: zion
+distanceApproximate: 0
+distanceTrue: 0
+
+tApproximateAverage: 0.00109351
+tTrueAverage: 0.00230392
+MAF: 0
