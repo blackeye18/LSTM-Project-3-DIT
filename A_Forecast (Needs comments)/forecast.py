@@ -25,11 +25,12 @@ import sys
 # file_name="nasd_input.csv"#to arxiko arxeio
 
 path=""
-file_name = "nasdaq2007_17.csv"  # to kainourio arxeio pou anevasan 3/1
+file_name = "nasdaq2007_17.csv"  # to kainourio arxeio pou anevhke 3/1
 input_path = path + file_name
 
 N = 15 #arxikes times
 
+#diavazume tis times aptin grammi entolwn
 if len(sys.argv) != 5:
     print("Wrong no of arguments!")
     exit(1)
@@ -43,12 +44,12 @@ df = pd.read_csv(input_path, '\t', header=None)
 print("Number of rows and columns:", df.shape)
 dataset = df.iloc[:, 1:].values
 #print(dataset.shape)
-
+#pairnume
 train_limit = round(0.8 * dataset.shape[1])
 Y_test_set = np.array(list(range(train_limit + 1, dataset.shape[1] + 1)))
 
-sequence = list(range(0, df.shape[0]))
-random.shuffle(sequence)
+sequence = list(range(0, df.shape[0]))#lista me ola ta rows tu dataset air8mika
+random.shuffle(sequence)#anakatevume afti tin lista
 
 print("Now Loading model that has been trained with the whole dataset")
 model_name = 'model_forecast.h5'
@@ -81,6 +82,7 @@ for iteration in range(0, N):
 
     inputs = sc.fit_transform(inputs)
     X_test = []
+    #ftiaxnume ta dedomena gia to montelo
     for i in range(prev_val, dataset.shape[1] - (train_limit - prev_val)):
         X_test.append(inputs[i - prev_val:i, 0])
     X_test = np.array(X_test)
@@ -91,7 +93,7 @@ for iteration in range(0, N):
     predicted_stock_price = sc.inverse_transform(predicted_stock_price)
 
     from sklearn.metrics import mean_squared_error
-
+    #ipologizume to mean_squared meta3i predicted timwn kai anamenomenwn timwn
     mean_sq_err = mean_squared_error(dataset_test.values, predicted_stock_price)
 
     print("iteration ", iteration, "with mean squared error ", mean_sq_err)
@@ -153,14 +155,14 @@ if value == 1:
 
         model2 = Sequential()
         # Adding the first LSTM layer and some Dropout regularisation
-        model2.add(LSTM(units=unit_num, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+        model2.add(LSTM(units=60, return_sequences=True, input_shape=(X_train.shape[1], 1)))
         model2.add(Dropout(drop_num))
         for i in range(0, 1):
             # Adding a second LSTM layer and some Dropout regularisation
-            model2.add(LSTM(units=unit_num, return_sequences=True))
+            model2.add(LSTM(units=50, return_sequences=True))
             model2.add(Dropout(drop_num))
         # Adding a fourth LSTM layer and some Dropout regularisation
-        model2.add(LSTM(units=unit_num))
+        model2.add(LSTM(units=40))
         model2.add(Dropout(drop_num + 0.1))
         # Adding the output layer
         model2.add(Dense(units=1))
