@@ -52,27 +52,11 @@ random.shuffle(sequence)
 
 print("Now Loading model that has been trained with the whole dataset")
 model_name = 'model_forecast.h5'
+#model_name ='newforecastsmalltest.h5'
 #model_name= "model_forecast4layers.h5"
 model = tf.keras.models.load_model(model_name)
 prev_val = 60  # round(dataset.shape[1]/10)
 train_counter=0
-for iteration in range(0, N):
-    train_counter=train_counter+1
-    arr = dataset[sequence[iteration]]
-    #arr=dataset[iteration]
-    X_training_set = arr[:train_limit]
-    X_test_set = arr[train_limit:]
-    #print("X_training_set size ", X_training_set.size)
-    #print("X_test_set size ", X_test_set.size)
-
-    training_set = X_training_set
-    training_set = training_set.reshape(-1, 1)
-    #print("training_set.shape", training_set.shape)
-
-    # Feature Scaling
-    sc = MinMaxScaler(feature_range=(0, 1))
-    training_set_scaled = sc.fit_transform(training_set)
-
 test_counter=0
 total_mean=0
 percentage=0.1*N#ektypwnw to poly 10% tou dataset pou kanw test
@@ -83,6 +67,8 @@ plot_counts=0
 count=0
 rand = 3
 for iteration in range(0, N):
+    # Feature Scaling
+    sc = MinMaxScaler(feature_range=(0, 1))
     test_counter=test_counter+1
     dataset_train = df.iloc[sequence[iteration], 1:train_limit + 1]
     dataset_test = df.iloc[sequence[iteration], train_limit + 1:]
@@ -93,7 +79,7 @@ for iteration in range(0, N):
     inputs = dataset_total[len(dataset_total) - len(dataset_test) - prev_val:].values
     inputs = inputs.reshape(-1, 1)
 
-    inputs = sc.transform(inputs)
+    inputs = sc.fit_transform(inputs)
     X_test = []
     for i in range(prev_val, dataset.shape[1] - (train_limit - prev_val)):
         X_test.append(inputs[i - prev_val:i, 0])

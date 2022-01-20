@@ -16,7 +16,7 @@ from keras.callbacks import EarlyStopping
 import random
 import sys
 
-#$python forecast.py –d <dataset> -n <number of time series selected> <OPTIONAL: name of model to save>
+#$python train_forecast.py –d <dataset> -n <number of time series selected> <OPTIONAL: name of model to save>
 
 #from google.colab import drive
 #drive.mount('/content/drive')
@@ -98,14 +98,17 @@ for iteration in range(0, N):
         # keras.backend.clear_session()
         model = Sequential()
         # Adding the first LSTM layer and some Dropout regularisation
-        model.add(LSTM(units=unit_num, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+        #model.add(LSTM(units=unit_num, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+        model.add(LSTM(units=60, return_sequences=True, input_shape=(X_train.shape[1], 1)))
         model.add(Dropout(drop_num))
         for i in range(0, 2):
             # Adding a second LSTM layer and some Dropout regularisation
-            model.add(LSTM(units=unit_num, return_sequences=True))
+            #model.add(LSTM(units=unit_num, return_sequences=True))
+            model.add(LSTM(units=50, return_sequences=True))
             model.add(Dropout(drop_num))
         # Adding a fourth LSTM layer and some Dropout regularisation
-        model.add(LSTM(units=unit_num))
+        #model.add(LSTM(units=unit_num))
+        model.add(LSTM(units=40))
         model.add(Dropout(drop_num + 0.1))
         # Adding the output layer
         model.add(Dense(units=1))
