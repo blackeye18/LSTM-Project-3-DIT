@@ -99,10 +99,10 @@ for iteration in range(0,N):
     test_mae_loss = np.mean(np.abs(X_test_pred - X_test), axis=1)
     ind_testX = np.array(list(range(TIME_STEPS + train_size + 1, dataset.shape[1] + 1)))
     test_score_df = pd.DataFrame(index=ind_testX)
-    test_score_df['loss'] = test_mae_loss
-    test_score_df['threshold'] = THRESHOLD
-    test_score_df['anomaly'] = test_score_df.loss > test_score_df.threshold
-    test_score_df['values'] = test_df[TIME_STEPS:]
+    test_score_df['loss'] = test_mae_loss#apoliti diafora meta3i predicted timis kai kanonikis timis
+    test_score_df['threshold'] = THRESHOLD#i timi mae pu dinete aptin grammi entolwn
+    test_score_df['anomaly'] = test_score_df.loss > test_score_df.threshold#True an exi timi loss megaliteri tu THRESHOLD aliws False
+    test_score_df['values'] = test_df[TIME_STEPS:]#pragmatikes times
     test_score_df['dates'] = np.array(list(range(TIME_STEPS + train_size + 1, dataset.shape[1] + 1)))
     anomalies = test_score_df[test_score_df.anomaly == True]
     print(anomalies.head())
@@ -119,7 +119,7 @@ for iteration in range(0,N):
         #if(plot_counts<10):
             plot_counts=plot_counts+1
             plt.plot(test_score_df['dates'], test_score_df['values'], color="blue")
-            plt.plot(anomalies['dates'], anomalies['values'], 'o', color="red")
+            plt.plot(anomalies['dates'], anomalies['values'], 'o', color="red")#kokkines kukides opu to loss 3epernaei to THRESHOLD
             plt.ylabel('Values')
             plt.xlabel('Dates')
             plt.show()

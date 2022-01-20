@@ -20,7 +20,7 @@ import sys
 #from google.colab import drive
 #import tensorflow as tf
 #print(tf.__version__)
-
+#sinartisi proetimasias dedomenwn gia dataset
 def create_dataset(X, y, time_steps=1):
     Xs, ys = [], []
     for i in range(len(X) - time_steps):
@@ -39,7 +39,7 @@ path=""
 file_name = "nasdaq2007_17.csv"
 model_name = 'model_detect_1.h5'
 N = 359
-
+#diavasma stoixeiwn aptin grammi entolwn
 if len(sys.argv) < 5:
     print("Wrong no of arguments!")
     exit(1)
@@ -66,8 +66,8 @@ train_size = int(0.8 * dataset.shape[1])
 #test_size = (dataset.shape[1] - train_size)
 
 
-sequence = list(range(0, df.shape[0]))
-random.shuffle(sequence)
+sequence = list(range(0, df.shape[0]))##lista me ola ta rows tu dataset air8mika
+random.shuffle(sequence)#anakatevume afti tin lista
 print(df.shape[0])
 
 
@@ -77,7 +77,7 @@ N_train = N  # gia na kanei train mono me to dataset pu tha kanei predict
 test_arr = []
 
 TIME_STEPS = 30
-ind_train = np.array(list(range(0, train_size)))
+ind_train = np.array(list(range(0, train_size)))#times apto 0 mexri to train_size
 #ind_test = np.array(list(range(train_size + 1, dataset.shape[1] + 1)))
 counterest=0
 for iteration in range(0, N_train):
@@ -85,7 +85,7 @@ for iteration in range(0, N_train):
     counterest=counterest+1
     #arr=dataset[iteration]
     arr = dataset[sequence[iteration]]
-    train_df = pd.DataFrame(index=ind_train)
+    train_df = pd.DataFrame(index=ind_train)#ftiaxnume DataFrame etsi wste o kwdikas mas na ine simvatos me auton tis istoselidas
     train_df['VALUES'] = arr[:train_size]
 
     scaler = StandardScaler()
@@ -98,7 +98,7 @@ for iteration in range(0, N_train):
     #print(X_train.shape)
     #print(X_train.shape[1], " ", X_train.shape[2])
 
-    if iteration == 0:
+    if iteration == 0::#mono stin prwti epanalipsi that ftia3ei to montelo
         model = keras.Sequential()
         model.add(keras.layers.LSTM(units=64, input_shape=(X_train.shape[1], X_train.shape[2])))
         model.add(keras.layers.Dropout(rate=0.2))
@@ -112,12 +112,12 @@ for iteration in range(0, N_train):
         model.add(keras.layers.TimeDistributed(keras.layers.Dense(units=X_train.shape[2])))
         model.compile(loss='mae', optimizer='adam')
 
-    history = model.fit(X_train, y_train, epochs=25, batch_size=32, validation_split=0.1, shuffle=False)
-
+    history = model.fit(X_train, y_train, epochs=25, batch_size=32, validation_split=0.1, shuffle=False)#model fit se ka8e epanalipsi
+    #kanume predict gia a3ilogisi tu dataset
     X_train_pred = model.predict(X_train)
     train_mae_loss = np.mean(np.abs(X_train_pred - X_train), axis=1)
     #print("train_mae_loss ",train_mae_loss)
 
-model.save(path + model_name)
+model.save(path + model_name)#apo8ikeuoume to montelo
 
 print("Finished :)")
