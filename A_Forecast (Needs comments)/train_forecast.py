@@ -25,10 +25,10 @@ import sys
 # file_name="nasd_input.csv"#to arxiko arxeio
 
 path=""
-file_name = "nasdaq2007_17.csv"  # to kainourio arxeio pou anevasan 3/1
+file_name = "nasdaq2007_17.csv"  # to kainourio arxeio pou anevhke 3/1
 
 N = 15
-
+#diavazume tis times aptin grammi entolwn
 if len(sys.argv) < 5:
     print("Wrong no of arguments!")
     exit(1)
@@ -56,8 +56,8 @@ Y_test_set = np.array(list(range(train_limit + 1, dataset.shape[1] + 1)))
 
 
 
-sequence = list(range(0, df.shape[0]))
-random.shuffle(sequence)
+sequence = list(range(0, df.shape[0]))#lista me ola ta rows tu dataset air8mika
+random.shuffle(sequence)#anakatevume afti tin lista
 
 print("Now training on ",N," training sets")
 train_counter=0
@@ -79,7 +79,7 @@ for iteration in range(0, N):
     # Feature Scaling
     sc = MinMaxScaler(feature_range=(0, 1))
     training_set_scaled = sc.fit_transform(training_set)
-    prev_val = 60  # round(dataset.shape[1]/10)
+    prev_val = 60  #ari8mos proigumenwn timwn pu tha xrisimopoiei
     # Creating a data structure with 60 time-steps and 1 output
     X_train = []
     Y_train = []
@@ -92,14 +92,14 @@ for iteration in range(0, N):
 
     #print("X_train.shape", X_train.shape)
 
-    if iteration == 0:
+    if iteration == 0:#mono stin prwti epanalipsi that ftia3i to montelo
         drop_num = 0.2
-        unit_num = 50
+        #unit_num = 50
         # keras.backend.clear_session()
         model = Sequential()
         # Adding the first LSTM layer and some Dropout regularisation
         #model.add(LSTM(units=unit_num, return_sequences=True, input_shape=(X_train.shape[1], 1)))
-        model.add(LSTM(units=60, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+        model.add(LSTM(units=60, return_sequences=True, input_shape=(X_train.shape[1], 1)))#units 60
         model.add(Dropout(drop_num))
         for i in range(0, 2):
             # Adding a second LSTM layer and some Dropout regularisation
@@ -109,14 +109,14 @@ for iteration in range(0, N):
         # Adding a fourth LSTM layer and some Dropout regularisation
         #model.add(LSTM(units=unit_num))
         model.add(LSTM(units=40))
-        model.add(Dropout(drop_num + 0.1))
+        model.add(Dropout(drop_num + 0.1))#allazi to drop_num mono sto teleftaio apo 0.2 se 0.3
         # Adding the output layer
         model.add(Dense(units=1))
         # Compiling the RNN
         model.compile(optimizer='adam', loss='mean_squared_error')
 
     # Fitting the RNN to the Training set
-    model.fit(X_train, Y_train, epochs=50, batch_size=32, verbose=1, shuffle=False)
+    model.fit(X_train, Y_train, epochs=50, batch_size=32, verbose=1, shuffle=False)#kanei fit ka8e row tu dataset
     # model.fit(X_train, Y_train, epochs = 100, batch_size = 32)
 
 model.save(path + model_name)
