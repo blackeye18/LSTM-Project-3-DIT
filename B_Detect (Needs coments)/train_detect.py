@@ -81,9 +81,10 @@ ind_train = np.array(list(range(0, train_size)))
 #ind_test = np.array(list(range(train_size + 1, dataset.shape[1] + 1)))
 counterest=0
 for iteration in range(0, N_train):
+    print("Iteration: ",iteration)
     counterest=counterest+1
-    arr=dataset[iteration]
-    #arr = dataset[sequence[iteration]]
+    #arr=dataset[iteration]
+    arr = dataset[sequence[iteration]]
     train_df = pd.DataFrame(index=ind_train)
     train_df['VALUES'] = arr[:train_size]
 
@@ -102,8 +103,12 @@ for iteration in range(0, N_train):
         model.add(keras.layers.LSTM(units=64, input_shape=(X_train.shape[1], X_train.shape[2])))
         model.add(keras.layers.Dropout(rate=0.2))
         model.add(keras.layers.RepeatVector(n=X_train.shape[1]))
-        model.add(keras.layers.LSTM(units=64, return_sequences=True))
-        model.add(keras.layers.Dropout(rate=0.2))
+        for i in range(0, 1):
+            # Adding a second LSTM layer and some Dropout regularisation
+            model.add(keras.layers.LSTM(units=50, return_sequences=True))
+            model.add(keras.layers.Dropout(rate=0.2))
+        model.add(keras.layers.LSTM(units=40, return_sequences=True))
+        model.add(keras.layers.Dropout(rate=0.3))
         model.add(keras.layers.TimeDistributed(keras.layers.Dense(units=X_train.shape[2])))
         model.compile(loss='mae', optimizer='adam')
 

@@ -73,30 +73,9 @@ TIME_STEPS = 30
 ind_train = np.array(list(range(0, train_size)))
 ind_test = np.array(list(range(train_size + 1, dataset.shape[1] + 1)))
 counterest=0
-model_name = 'model_detect4.h5'
+#model_name = 'model_detect4.h5'
+model_name='testdetect10_2.h5'
 model = tf.keras.models.load_model(model_name)
-
-for iteration in range(0, N_train):
-    counterest=counterest+1
-    #arr=dataset[iteration]
-    arr = dataset[sequence[iteration]]
-    train_df = pd.DataFrame(index=ind_train)
-    train_df['VALUES'] = arr[:train_size]
-
-    test_df = pd.DataFrame(index=ind_test)
-    test_df['VALUES'] = arr[train_size:]
-
-    scaler = StandardScaler()
-    scaler = scaler.fit(train_df[['VALUES']])
-    #train_df['VALUES'] = scaler.transform(train_df[['VALUES']])
-    test_df['VALUES'] = scaler.transform(test_df[['VALUES']])
-
-    #X_train, y_train = create_dataset(train_df[['VALUES']], train_df.VALUES, TIME_STEPS)
-    if iteration < N:
-        X_test, y_test = create_dataset(test_df[['VALUES']], test_df.VALUES, TIME_STEPS)
-        test_arr.append((X_test, test_df))
-    #print(X_train.shape)
-   # print(X_train.shape[1], " ", X_train.shape[2])
 
 plot_counts=0
 percentage=0.1*N#ektypwnw to poly 10% tou dataset pou kanw test
