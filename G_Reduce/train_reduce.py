@@ -21,7 +21,7 @@ import sys
 
 #from google.colab import drive
 
-
+#sinartisi proetimasias dedomenwn gia to model
 def create_dataset(data, sc, windows=10, ):
     size = data.shape[0]
     windows_lst, resultX_lst, resultY_lst = [], [], []
@@ -35,7 +35,7 @@ def create_dataset(data, sc, windows=10, ):
             windows_lst = []
     return np.array(resultX_lst), np.array(resultY_lst)
 
-
+#sinartisi ektipwshs history
 def plot_history(history):
     plt.figure(figsize=(15, 5))
     ax = plt.subplot(1, 2, 1)
@@ -45,7 +45,7 @@ def plot_history(history):
     plt.plot(history.history["val_loss"])
     plt.title("Test loss")
 
-
+#sinartisi ektipwsis dataset prin kai meta to autoencoder
 def plot_examples(stock_input, stock_decoded):
     n = stock_input.shape[1]
     plt.figure(figsize=(20, 4))
@@ -109,8 +109,8 @@ train_size = int(0.8 * dataset.shape[1])
 test_size = (dataset.shape[1] - train_size)
 
 
-sequence = list(range(0, df.shape[0]))
-random.shuffle(sequence)
+sequence = list(range(0, df.shape[0]))#lista me ola rows tu dataset se aritmus
+random.shuffle(sequence)#anakatevume tin lista
 
 
 N_train = N  # gia na kanei train mono me to dataset pu tha kanei predict
@@ -140,7 +140,7 @@ for iteration in range(0, N_train):
     sc = MinMaxScaler(feature_range=(0, 1))
     testX, testY = create_dataset(test_df, sc, windows)
 
-    if iteration == 0:
+    if iteration == 0:#ftiaxnume to montelo mono stin prwti epanalipsi
         input_window = Input(shape=(windows, 1))
         x = Conv1D(16, 3, activation="relu", padding="same")(input_window)  # 10 dims
         # x = BatchNormalization()(x)
@@ -149,10 +149,10 @@ for iteration in range(0, N_train):
         # x = BatchNormalization()(x)
         encoded = MaxPooling1D(2, padding="same")(x)  # 3 dims
 
-        encoder = Model(input_window, encoded)
-
-        #################allagi kanw compile twn encoder
+        encoder = Model(input_window, encoded)#encoder edw ta dedomena ine simpiesmena se mikroteri diastasi
+        #################kanume compile ton encoder
         encoder.compile(optimizer='adam', loss='binary_crossentropy')
+
         # 3 dimensions in the encoded layer
         x = Conv1D(1, 3, activation="relu", padding="same")(encoded)  # 3 dims
         # x = BatchNormalization()(x)
@@ -160,23 +160,22 @@ for iteration in range(0, N_train):
         x = Conv1D(16, 2, activation='relu')(x)  # 5 dims
         # x = BatchNormalization()(x)
         x = UpSampling1D(2)(x)  # 10 dims
-        decoded = Conv1D(1, 3, activation='sigmoid', padding='same')(x)  # 10 dims
+        decoded = Conv1D(1, 3, activation='sigmoid', padding='same')(x)  # 10 dims#edw ta dedomena ine stin kanoniki tus diastasi
         autoencoder = Model(input_window, decoded)
         autoencoder.summary()
 
-        autoencoder.compile(optimizer='adam', loss='binary_crossentropy')
+        autoencoder.compile(optimizer='adam', loss='binary_crossentropy')#kanume compile ton autoencoder
 
     history = autoencoder.fit(trainX, trainX, epochs=100, batch_size=1024, shuffle=True, validation_data=(testX, testX))
 
     # encoded_values = encoder.predict(testX)# entoli gia predictions encoded
     # print("encoded_values ",encoded_values.shape)
-    testX_predicted = autoencoder.predict(testX)
+    testX_predicted = autoencoder.predict(testX)#xrisimopoioume ton autoencoder gia a3iologisi tu montelu
 
     if debug_flag == 0:
         plot_history(history)
         print("testX shape", testX.shape)
         plot_examples(testX, testX_predicted)
-#############allagi kanw save ton encoder
-
+###kanume save ton encoder
 encoder.save(path + encoder_name )
 print("Finished :) Trained with: ",train_count)
