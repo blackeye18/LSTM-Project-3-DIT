@@ -19,6 +19,8 @@ from sklearn.preprocessing import StandardScaler
 import random
 import sys
 
+#$python train_reduce.py –d <dataset> -n <number of time series selected> <OPTIONAL: name of model to save>
+
 #from google.colab import drive
 
 #sinartisi proetimasias dedomenwn gia to model
@@ -119,8 +121,8 @@ test_arr = []
 
 train_count=0
 
-#debug_flag=0 #gia na emfanizei grafikes parastaseis gia debug, dhladh gia na vlepoume an oi times pou allazoume exoyn kalytera apotelesmata h oxi.
-debug_flag=1#gia na mhn emfanizei grafikes parastaseis
+debug_flag=0 #gia na emfanizei grafikes parastaseis gia debug, dhladh gia na vlepoume an oi times pou allazoume exoyn kalytera apotelesmata h oxi.
+#debug_flag=1#gia na mhn emfanizei grafikes parastaseis
 
 
 for iteration in range(0, N_train):
@@ -150,9 +152,9 @@ for iteration in range(0, N_train):
         encoded = MaxPooling1D(2, padding="same")(x)  # 3 dims
 
         encoder = Model(input_window, encoded)#encoder edw ta dedomena ine simpiesmena se mikroteri diastasi
+
         #################kanume compile ton encoder
         encoder.compile(optimizer='adam', loss='binary_crossentropy')
-
         # 3 dimensions in the encoded layer
         x = Conv1D(1, 3, activation="relu", padding="same")(encoded)  # 3 dims
         # x = BatchNormalization()(x)
@@ -160,11 +162,11 @@ for iteration in range(0, N_train):
         x = Conv1D(16, 2, activation='relu')(x)  # 5 dims
         # x = BatchNormalization()(x)
         x = UpSampling1D(2)(x)  # 10 dims
-        decoded = Conv1D(1, 3, activation='sigmoid', padding='same')(x)  # 10 dims#edw ta dedomena ine stin kanoniki tus diastasi
+        decoded = Conv1D(1, 3, activation='sigmoid', padding='same')(x)  # 10 dims
         autoencoder = Model(input_window, decoded)
         autoencoder.summary()
 
-        autoencoder.compile(optimizer='adam', loss='binary_crossentropy')#kanume compile ton autoencoder
+        autoencoder.compile(optimizer='adam', loss='binary_crossentropy')
 
     history = autoencoder.fit(trainX, trainX, epochs=100, batch_size=1024, shuffle=True, validation_data=(testX, testX))
 

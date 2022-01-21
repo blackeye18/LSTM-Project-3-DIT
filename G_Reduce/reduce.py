@@ -1,3 +1,4 @@
+#Georgios Georgiou sdi1800220 - Panagiotis Mavrommatis sdi1800115
 import math
 import matplotlib.pyplot as plt
 import keras
@@ -18,10 +19,14 @@ from keras.callbacks import EarlyStopping
 from sklearn.preprocessing import StandardScaler
 import csv
 import sys
+
+#$python reduce.py –d <dataset> -q <queryset> -od <output_dataset_file> -oq <output_query_file>
+
 #from google.colab import drive
 
 #drive.mount('/content/drive')
 #path = "/content/drive/My Drive/project_3/"
+
 #sinartisi proetimasias dedomenwn gia to predict
 def create_dataset(data,sc,windows=10,):
   size=data.shape[0]
@@ -35,6 +40,7 @@ def create_dataset(data,sc,windows=10,):
       resultY_lst.append(windows_lst)
       windows_lst=[]
   return np.array(resultX_lst),np.array(resultY_lst)
+
 #sinartisi ektipwmatos simpiesmenwn dedomenwn se csv arxeio
 def print_encoded(df,encoder_model,output_name):
   dataset=df.iloc[:,:].values
@@ -43,10 +49,6 @@ def print_encoded(df,encoder_model,output_name):
   writer = csv.writer(f,delimiter='\t')
 
   for arr in dataset:
-    """
-    if iteration > 5:
-      break
-    """
     name=arr[0]
     data=arr[1:]
     encoding_dim = 3
@@ -65,25 +67,27 @@ def print_encoded(df,encoder_model,output_name):
       for y in x:
         #print("y:",str(y).lstrip('[').rstrip(']'))
         row.append(str(y).lstrip('[').rstrip(']'))
+
     #for itemn in row:
       #writer.writerow(itemn)
     #new_lst = (','.join(row))
     #print(row)
+
     writer.writerow(row)#ektipwnume tin ka8e grammi sto arxeio csv
     iteration+=1
 
-  print(output_name," length of row after",len(row),"number of rows after",iteration)
+  print("length of row after",len(row))
+  print("number of rows after",iteration)
   f.close()
 
-#$python reduce.py –d <dataset> -q <queryset> -od <output_dataset_file> -oq <output_query_file>
+
 
 path=""
-
+#ta onomata dinonte aptin grammi entolwn
 dataset="nasdaq2007_17.csv"#onoma dataset prin to encoding
 queryset="nasdaq2007_17.csv"#onoma queryset prin to encoding
 output_dataset_file="output_dataset_file.csv"#onoma dataset meta to encoding
 output_query_file="output_query_file.csv"#onoma queryset meta to encoding
-
 #orismata aptin grammi entolwn
 if len(sys.argv) != 9:
     print("Wrong no of arguments!")
@@ -96,8 +100,7 @@ output_query_file=sys.argv[8]
 
 data_df=pd.read_csv(path+dataset,'\t',header=None)
 query_df=pd.read_csv(path+queryset,'\t',header=None)
-print("shape of dataset before",data_df.shape)
-print("shape of queryset before",query_df.shape)
+print("shape before",data_df.shape)
 ########kanw load ton encoder
 encoder_model=keras.models.load_model(path+"encoder1.h5")#kanume load ton encoder
 #tipwnume ta encoded dedomena sta arxeia
